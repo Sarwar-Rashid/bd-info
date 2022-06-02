@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
+
 .first-heading {
     text-align: center;
     color: green;
@@ -11,4 +15,32 @@ body {
 
 .text-color {
     color: red;
+}
+
+.first-section {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.bd-map-image img {
+    width: 400px;
+}
+
+.button-design {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, green, red, green);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.button-design:hover {
+    color: black;
+}
+
+.left-side {
+    margin-top: 50px;
 }
