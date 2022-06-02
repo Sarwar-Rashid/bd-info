@@ -3,3 +3,12 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.first-heading {
+    text-align: center;
+    color: green;
+}
+
+.text-color {
+    color: red;
+}
