@@ -25,17 +25,17 @@ body {
     width: 400px;
 }
 
-.left-side a {
+.distance-btn a {
     text-decoration: none;
     background-image: linear-gradient(45deg, green, red, green);
     padding: 10px 40px;
-    color: white;
+    color: black;
     border-radius: 5px;
     font-weight: 800;
 }
 
-.button-design:hover {
-    color: black;
+.distance-btn a:hover {
+    color: white;
     transition: 2s;
 }
 
@@ -45,6 +45,7 @@ body {
 
 .second-section {
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .second-heading {
@@ -75,13 +76,13 @@ body {
     text-decoration: none;
     background-image: linear-gradient(90deg, green, red, green);
     padding: 10px 40px;
-    color: white;
+    color: black;
     border-radius: 5px;
     font-weight: 800;
 }
 
 .bottom-section a:hover {
-    color: black;
+    color: white;
     transition: 2s;
 }
 
@@ -92,4 +93,10 @@ body {
 .all-division {
     display: flex;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
 }
