@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-p {
-    text-align: justify;
-}
-
 .first-heading {
     text-align: center;
     color: green;
@@ -18,6 +14,7 @@ p {
 }
 
 .first-section {
+    text-align: justify;
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -28,7 +25,7 @@ p {
     width: 400px;
 }
 
-.button-design {
+.left-side a {
     text-decoration: none;
     background-image: linear-gradient(45deg, green, red, green);
     padding: 10px 40px;
@@ -39,8 +36,60 @@ p {
 
 .button-design:hover {
     color: black;
+    transition: 2s;
 }
 
 .left-side {
     margin-top: 50px;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.second-heading {
+    margin: 50px;
+}
+
+.dhaka-division {
+    width: 300px;
+    border: 5px solid white;
+    box-shadow: 20px 20px 40px gray;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.all-division img {
+    width: 300px;
+}
+
+.bottom-section {
+    padding: 20px 15px;
+}
+
+.bottom-section p {
+    text-align: justify;
+}
+
+.bottom-section a {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, green, red, green);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.bottom-section a:hover {
+    color: black;
+    transition: 2s;
+}
+
+.distance-btn {
+    margin-top: 20px;
+}
+
+.all-division {
+    display: flex;
+    justify-content: space-around;
 }
